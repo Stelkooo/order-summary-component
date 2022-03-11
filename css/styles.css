@@ -354,9 +354,15 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
-  width: 327px;
-  height: 100%;
+  max-width: 327px;
   padding: 0 1em 1em;
   display: flex;
   flex-direction: column;
@@ -367,7 +373,8 @@ body {
 }
 
 .card-img {
-  width: 100%;
+  max-width: 327px;
+  border-radius: 20px 20px 0 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
