@@ -1,14 +1,29 @@
+@use "../abstracts/variables" as *;
+
 .card {
     max-width: 327px;
-    padding: 0 1em 1em;
+    padding: 0 2em 2em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: white;
     border-radius: 20px;
     &-img {
         max-width: 327px;
         border-radius: 20px 20px 0 0;
+    }
+}
+.summary {
+    margin: 2em 0;
+    text-align: center;
+    &-heading {
+        margin: 0 0 1em;
+        font-size: 1.5em;
+        font-weight: map-get($map: $font-weights, $key: extra-bold);
+    }
+    &-text {
+        font-size: .9em;
+        font-weight: map-get($map: $font-weights, $key: medium);
+        line-height: 25px;
     }
 }

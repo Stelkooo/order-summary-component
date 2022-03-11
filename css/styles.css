@@ -361,12 +361,14 @@ main {
   align-items: center;
 }
 
+/* Layout */
+/* Colours */
+/* Font */
 .card {
   max-width: 327px;
-  padding: 0 1em 1em;
+  padding: 0 2em 2em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: white;
   border-radius: 20px;
@@ -375,6 +377,23 @@ main {
 .card-img {
   max-width: 327px;
   border-radius: 20px 20px 0 0;
+}
+
+.summary {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.summary-heading {
+  margin: 0 0 1em;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.summary-text {
+  font-size: 0.9em;
+  font-weight: 500;
+  line-height: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
