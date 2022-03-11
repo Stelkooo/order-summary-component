@@ -340,12 +340,34 @@ template {
 /* Layout */
 /* Colours */
 /* Font */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #e0e8ff;
 }
 
 body {
   font-family: "Red Hat Display", sans-serif;
+}
+
+.card {
+  width: 327px;
+  height: 100%;
+  padding: 0 1em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.card-img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
