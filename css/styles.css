@@ -341,6 +341,10 @@ template {
 /* Colours */
 /* Font */
 body {
+  background-color: #e0e8ff;
+}
+
+body {
   font-family: "Red Hat Display", sans-serif;
 }
 

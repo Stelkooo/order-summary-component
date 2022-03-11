@@ -1,0 +1,5 @@
+@use "../abstracts/variables" as *;
+
+body {
+    background-color: map-get($map: $primary-colours, $key: pale-blue);
+}
