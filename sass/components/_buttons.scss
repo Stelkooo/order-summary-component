@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
 
 .payment,
 .cancel {
@@ -18,4 +19,17 @@
 .cancel {
     margin-bottom: 1em;
     color: map-get($map: $neutral-colours, $key: desaturated-blue);
+}
+
+@include desktop {
+    .payment,
+    .cancel {
+        width: 88%;
+    }
+    .payment {
+        margin-bottom: 1em;
+    }
+    .cancel {
+        margin-bottom: 1.5em;
+    }
 }

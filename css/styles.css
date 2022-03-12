@@ -446,6 +446,33 @@ main {
   font-weight: 700;
 }
 
+@media (min-width: 1440px) {
+  .card {
+    max-width: 450px;
+  }
+
+  .card-img {
+    max-width: 450px;
+  }
+
+  .summary {
+    margin-top: 2.8em;
+    margin-bottom: 1em;
+  }
+
+  .summary-heading {
+    font-size: 1.75em;
+  }
+
+  .summary-text {
+    padding: 0 2.5em;
+  }
+
+  .plan {
+    width: 88%;
+    margin-bottom: 1.8em;
+  }
+}
 /* Layout */
 /* Colours */
 /* Font */
@@ -469,6 +496,21 @@ main {
 .cancel {
   margin-bottom: 1em;
   color: #7280a7;
+}
+
+@media (min-width: 1440px) {
+  .payment,
+.cancel {
+    width: 88%;
+  }
+
+  .payment {
+    margin-bottom: 1em;
+  }
+
+  .cancel {
+    margin-bottom: 1.5em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
