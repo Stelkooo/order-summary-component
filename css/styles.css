@@ -350,6 +350,12 @@ body {
   background-color: #e0e8ff;
 }
 
+.background-pattern {
+  position: absolute;
+  color: #d6e0ff;
+  z-index: -1;
+}
+
 body {
   font-family: "Red Hat Display", sans-serif;
 }

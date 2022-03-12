@@ -9,3 +9,9 @@
 body {
     background-color: map-get($map: $primary-colours, $key: pale-blue);
 }
+
+.background-pattern {
+    position: absolute;
+    color: hsl(225, 100%, 92%);
+    z-index: -1;
+}
