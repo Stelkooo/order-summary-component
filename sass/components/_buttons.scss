@@ -1,0 +1,21 @@
+@use "../abstracts/variables" as *;
+
+.payment,
+.cancel {
+    width: 100%;
+    margin-top: 1em;
+    padding: 1.1em 0;
+    border-radius: 11px;
+    font-size: .95em;
+    font-weight: map-get($map: $font-weights, $key: extra-bold);
+    text-align: center;
+    text-decoration: none;
+}
+.payment {
+    color: white;
+    background: map-get($map: $primary-colours, $key: bright-blue);
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+.cancel {
+    color: map-get($map: $neutral-colours, $key: desaturated-blue);
+}

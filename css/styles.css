@@ -438,4 +438,29 @@ main {
   font-weight: 700;
 }
 
+/* Layout */
+/* Colours */
+/* Font */
+.payment,
+.cancel {
+  width: 100%;
+  margin-top: 1em;
+  padding: 1.1em 0;
+  border-radius: 11px;
+  font-size: 0.95em;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+}
+
+.payment {
+  color: white;
+  background: #3829e0;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.cancel {
+  color: #7280a7;
+}
+
 /*# sourceMappingURL=styles.css.map */
