@@ -488,6 +488,11 @@ main {
     width: 88%;
     margin-bottom: 1.8em;
   }
+
+  .plan-change:hover {
+    color: #756af1;
+    text-decoration: none;
+  }
 }
 /* Layout */
 /* Colours */
@@ -524,8 +529,16 @@ main {
     margin-bottom: 1em;
   }
 
+  .payment:hover {
+    background: #756af1;
+  }
+
   .cancel {
     margin-bottom: 1.5em;
+  }
+
+  .cancel:hover {
+    color: #1f2f56;
   }
 }
 

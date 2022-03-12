@@ -28,8 +28,14 @@
     }
     .payment {
         margin-bottom: 1em;
+        &:hover {
+            background: hsl(245, 83, 68);
+        }
     }
     .cancel {
         margin-bottom: 1.5em;
+        &:hover {
+            color: hsl(223, 47, 23);
+        }     
     }
 }

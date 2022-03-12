@@ -90,5 +90,9 @@
     .plan {
         width: 88%;
         margin-bottom: 1.8em;
+        &-change:hover {
+            color: hsl(245, 83, 68);
+            text-decoration: none;
+        }
     }
 }
