@@ -366,7 +366,7 @@ main {
 /* Font */
 .card {
   max-width: 327px;
-  padding: 0 2em 2em;
+  padding: 0 1.5em 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
