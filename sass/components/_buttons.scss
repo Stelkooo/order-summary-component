@@ -14,7 +14,7 @@
 .payment {
     color: white;
     background: map-get($map: $primary-colours, $key: bright-blue);
-    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    box-shadow: 0px 20px 20px hsla(245, 75%, 52%, 0.2);
 }
 .cancel {
     color: map-get($map: $neutral-colours, $key: desaturated-blue);
