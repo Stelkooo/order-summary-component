@@ -18,12 +18,51 @@
     text-align: center;
     &-heading {
         margin: 0 0 1em;
+        color: map-get($map: $neutral-colours, $key: dark-blue);
         font-size: 1.5em;
         font-weight: map-get($map: $font-weights, $key: extra-bold);
     }
     &-text {
+        color: map-get($map: $neutral-colours, $key: desaturated-blue);
         font-size: .9em;
         font-weight: map-get($map: $font-weights, $key: medium);
         line-height: 25px;
+    }
+}
+.plan {
+    width: 100%;
+    padding: 1em;
+    background-color: map-get($map: $neutral-colours, $key: very-pale-blue);
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: 
+        "img type change"
+        "img cost change";
+    &-img {
+        grid-area: img;
+        margin-right: 1em;
+    }
+    &-type {
+        grid-area: type;
+        color: map-get($map: $neutral-colours, $key: dark-blue);
+        font-weight: map-get($map: $font-weights, $key: extra-bold);
+    }
+    &-cost {
+        grid-area: cost;
+        color: map-get($map: $neutral-colours, $key: desaturated-blue);
+        font-weight: map-get($map: $font-weights, $key: medium);
+    }
+    &-type,
+    &-cost {
+        font-size: .9em;
+    }
+    &-change {
+        grid-area: change;
+        color: map-get($map: $primary-colours, $key: bright-blue);
+        font-size: .8em;
+        font-weight: map-get($map: $font-weights, $key: bold);
     }
 }

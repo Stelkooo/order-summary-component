@@ -386,14 +386,56 @@ main {
 
 .summary-heading {
   margin: 0 0 1em;
+  color: #1f2f56;
   font-size: 1.5em;
   font-weight: 900;
 }
 
 .summary-text {
+  color: #7280a7;
   font-size: 0.9em;
   font-weight: 500;
   line-height: 25px;
+}
+
+.plan {
+  width: 100%;
+  padding: 1em;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas: "img type change" "img cost change";
+}
+
+.plan-img {
+  grid-area: img;
+  margin-right: 1em;
+}
+
+.plan-type {
+  grid-area: type;
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+.plan-cost {
+  grid-area: cost;
+  color: #7280a7;
+  font-weight: 500;
+}
+
+.plan-type, .plan-cost {
+  font-size: 0.9em;
+}
+
+.plan-change {
+  grid-area: change;
+  color: #3829e0;
+  font-size: 0.8em;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */
