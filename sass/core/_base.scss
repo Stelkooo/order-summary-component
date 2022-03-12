@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
 
 * {
     box-sizing: border-box;
@@ -10,8 +11,25 @@ body {
     background-color: map-get($map: $primary-colours, $key: pale-blue);
 }
 
-.background-pattern {
+.background-pattern-mobile,
+.background-pattern-desktop {
+    width: 100%;
     position: absolute;
     color: hsl(225, 100%, 92%);
     z-index: -1;
+}
+
+@include mobile {
+    .background-pattern-desktop {
+        visibility: hidden;
+    }
+}
+
+@include desktop {
+    .background-pattern-mobile {
+        visibility: hidden;
+    }
+    .background-pattern-desktop {
+        visibility: visible;
+    }
 }

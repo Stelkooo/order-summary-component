@@ -350,12 +350,28 @@ body {
   background-color: #e0e8ff;
 }
 
-.background-pattern {
+.background-pattern-mobile,
+.background-pattern-desktop {
+  width: 100%;
   position: absolute;
   color: #d6e0ff;
   z-index: -1;
 }
 
+@media (min-width: 375px) {
+  .background-pattern-desktop {
+    visibility: hidden;
+  }
+}
+@media (min-width: 1440px) {
+  .background-pattern-mobile {
+    visibility: hidden;
+  }
+
+  .background-pattern-desktop {
+    visibility: visible;
+  }
+}
 body {
   font-family: "Red Hat Display", sans-serif;
 }

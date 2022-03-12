@@ -1,5 +1,11 @@
 @use "variables" as *;
 
+@mixin mobile {
+    @media (min-width: #{map-get($map: $screen-size, $key: mobile)}) {
+        @content;
+    }
+}
+
 @mixin desktop {
     @media (min-width: #{map-get($map: $screen-size, $key: desktop)}) {
         @content;
