@@ -2,7 +2,7 @@
 
 .card {
     max-width: 327px;
-    padding: 0 1.5em 2em;
+    padding: 0 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@
     margin: 2em 0;
     text-align: center;
     &-heading {
-        margin: 0 0 1em;
+        margin: 0 0 .7em;
         color: map-get($map: $neutral-colours, $key: dark-blue);
         font-size: 1.5em;
         font-weight: map-get($map: $font-weights, $key: extra-bold);
@@ -32,6 +32,7 @@
 }
 .plan {
     width: 100%;
+    margin-bottom: 1.5em;
     padding: 1em;
     background-color: map-get($map: $neutral-colours, $key: very-pale-blue);
     border-radius: 10px;

@@ -3,7 +3,6 @@
 .payment,
 .cancel {
     width: 100%;
-    margin-top: 1em;
     padding: 1.1em 0;
     border-radius: 11px;
     font-size: .95em;
@@ -17,5 +16,6 @@
     box-shadow: 0px 20px 20px hsla(245, 75%, 52%, 0.2);
 }
 .cancel {
+    margin-bottom: 1em;
     color: map-get($map: $neutral-colours, $key: desaturated-blue);
 }

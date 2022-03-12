@@ -366,7 +366,7 @@ main {
 /* Font */
 .card {
   max-width: 327px;
-  padding: 0 1.5em 2em;
+  padding: 0 1.5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -386,7 +386,7 @@ main {
 }
 
 .summary-heading {
-  margin: 0 0 1em;
+  margin: 0 0 0.7em;
   color: #1f2f56;
   font-size: 1.5em;
   font-weight: 900;
@@ -401,6 +401,7 @@ main {
 
 .plan {
   width: 100%;
+  margin-bottom: 1.5em;
   padding: 1em;
   background-color: #f5f7ff;
   border-radius: 10px;
@@ -445,7 +446,6 @@ main {
 .payment,
 .cancel {
   width: 100%;
-  margin-top: 1em;
   padding: 1.1em 0;
   border-radius: 11px;
   font-size: 0.95em;
@@ -461,6 +461,7 @@ main {
 }
 
 .cancel {
+  margin-bottom: 1em;
   color: #7280a7;
 }
 
